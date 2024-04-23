@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+
+
+body {
+    background-color: #F5F5F5;
+    font-family: "Mate", serif;
+    font-size: 20px;
+}
+ 
+#pesoMediano {font-weight: 500;}
+
+header {
+    background-color: black ;
+    width: 100%;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    font-size: 25px;
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+ul,
+h2,
+h1 {
+    font-family: "Mulish", sans-serif; 
+    text-transform: capitalize;
+}
+h2,
+h1 {
+    color:rgb(109,104, 117);
+    font-weight: 800;
+}
+h1 {
+    text-align: center; 
+    font-size: 60px;
+}
+h2 {
+    text-align: right ;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#vinculo {
+    color: #b5838d;
+}
+
+#miColor {
+    color: #b5838d;
+    background-color: #070707 ;
+}
+
+ .miSubrayado {
+    text-decoration: underline ;
+ }
